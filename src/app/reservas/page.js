@@ -2,6 +2,8 @@
 import Form from "../components/Form";
 import Cita from "../components/Cita";
 import { useState, useEffect } from "react";
+import styles from "./page.module.css";
+
 export default function reservas(){
 
     const [citas, setCitas] = useState([]);
