@@ -2,7 +2,6 @@
 import Label from "../Label"
 import Input from "../Input"
 import Boton from "../Boton"
-import styles from "./page.module.css";
 import { useState } from "react"
 
 const Form = ({funcion}) =>{

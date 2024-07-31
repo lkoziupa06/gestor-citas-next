@@ -1,8 +1,8 @@
 "use client"
 import Form from "../components/Form";
 import Cita from "../components/Cita";
+import "../globals.css"
 import { useState, useEffect } from "react";
-import styles from "./page.module.css";
 
 export default function reservas(){
 
@@ -52,7 +52,7 @@ export default function reservas(){
                     <Form funcion={addCita}/>
                 </div>
                 <div className="one-half column">
-                <h2>LISTADO DE CITAS</h2>
+                 <h2>LISTADO DE CITAS</h2>
                     {citas.map((cita, key) => (
                         <Cita cita={cita} key={key} funcion={eliminarCita}/>
                     ))}
