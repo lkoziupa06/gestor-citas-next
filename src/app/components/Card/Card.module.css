@@ -10,17 +10,16 @@
 }
 
 .imageContainer {
-    width: 100%;
-    padding-top: 100%; /* Esto hace que la imagen sea redonda */
+    width: 120px; /* Tamaño reducido del contenedor */
+    height: 120px; /* Tamaño reducido del contenedor */
     position: relative;
+    margin: 16px auto 0; /* Margen superior añadido y centrado horizontalmente */
+    border-radius: 50%; /* Mantiene la forma redonda si deseas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
 }
 
 .image {
-    border-radius: 50%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
     width: 100%;
     height: 100%;
 }

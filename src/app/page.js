@@ -55,7 +55,7 @@ export default function Home() {
         </a>
 
         <Link href="/reservas">Reservas</Link>
-
+        <Link href="/creditos">Creditos</Link>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
