@@ -1,7 +1,0 @@
-.cardContainer {
-    display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente línea si no hay suficiente espacio */
-    gap: 16px; /* Espacio entre las tarjetas */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    padding: 16px; /* Espacio alrededor del contenedor */
-}
