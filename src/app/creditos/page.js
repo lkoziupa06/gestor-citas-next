@@ -4,9 +4,9 @@ import "../globals.css";
 export const Creditos = () =>{
     return(
         <>
-            <Card/>
-            <Card/>
-            <Card/>
+            <Card title="Lucas Koziupa"/>
+            <Card title="Tomas Czernuszka"/>
+            <Card title="Thiago Palachi"/>
         </>
     );
 }
