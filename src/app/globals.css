@@ -79,37 +79,13 @@
   margin: 0;
 }
 
-html,
-body {
+body, main, html {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-body {
   font-family: var(--bs-font-sans-serif);;
   margin: 0;
   padding: 0;
   background-color: #79a0c7;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h2, h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 600;
-  color: rgb(255, 255, 255);
 }
 
 form, .cita {
@@ -157,16 +133,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-.one-half {
-  width: 50%;
-  padding: 0 10px;
-}
 
 @media (max-width: 768px) {
   .one-half {
@@ -187,3 +153,13 @@ button:hover {
   padding: 16px; 
 }
 
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
