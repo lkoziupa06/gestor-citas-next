@@ -1,10 +1,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; 
   align-items: center;
   height: 100vh;
-  background-color: #79a0c7; /* Fondo de color */
+  background-color: #79a0c7; 
+  padding-top: 20px; 
 }
 
 .title {
@@ -13,6 +14,7 @@
   color: #ffffff;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .imageContainer {
@@ -20,11 +22,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 600px; /* Ajusta el tamaño máximo de la imagen */
+  max-width: 700px; 
+  margin-bottom: 20px; 
 }
 
 .backgroundImage {
   width: 100%;
   height: auto;
-  border-radius: 10px; /* O cualquier otro estilo que desees para la imagen */
+  border-radius: 10px; 
 }

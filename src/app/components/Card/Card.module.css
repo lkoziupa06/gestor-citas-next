@@ -10,16 +10,16 @@
 }
 
 .imageContainer {
-    width: 120px; /* Tamaño reducido del contenedor */
-    height: 120px; /* Tamaño reducido del contenedor */
+    width: 120px; 
+    height: 120px; 
     position: relative;
-    margin: 16px auto 0; /* Margen superior añadido y centrado horizontalmente */
-    border-radius: 50%; /* Mantiene la forma redonda si deseas */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    margin: 16px auto 0; 
+    border-radius: 50%; 
+    overflow: hidden; 
 }
 
 .image {
-    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+    object-fit: cover; 
     width: 100%;
     height: 100%;
 }
